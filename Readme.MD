@@ -4,3 +4,9 @@ This is my first application that was created using a JavaScript framework calle
 
 Throughout this project, I have learned about core components, navigation, and styling with React-Native.
 
+To run this project on your local machine:
+
+- Download zip file
+- Open your terminal and type "expo start" in the main directory
+- Open the web preview from the dev tools
+- To run this app on a mobile device, you must have "Expo go" installed on your device. Use your phone camera and scan the QR code while it is running
