@@ -39,5 +39,11 @@ export const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
     fontSize: 32
+  },
+  placeholder: {
+    padding: 8,
+    fontSize: 16,
+    width: 300,
+    textAlign: 'center'
   }
 });
