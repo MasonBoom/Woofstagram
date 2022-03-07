@@ -11,12 +11,12 @@ export const styles = StyleSheet.create({
   heading: {
     fontWeight: "800",
     fontSize: 20,
-    marginBottom: 5
+    marginBottom: 5,
   },
   title: {
     color: 'black',
     fontSize: 12,
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
   input: {
     borderRadius: 4,
@@ -27,18 +27,29 @@ export const styles = StyleSheet.create({
     width: '50%',
   },
   button: {
-    borderRadius: 4,
-    borderColor: 'blue',
-    borderWidth: 1
+    backgroundColor: '#3DABFE',
+    borderWidth: 3,
+    borderColor: 'black',
+    alignSelf: 'center',
+    textAlign: 'center',
+    padding: 5,
+    height: 50,
+    width: 350,
+    fontWeight: 'bold',
+    fontSize: 24,
+    bottom: 35,
+    position: 'fixed',
+    borderRadius: 15,
   },
   view: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+
   },
   text: {
     textAlign: 'center',
-    fontSize: 32
+    fontSize: 32,
   },
   placeholder: {
     padding: 8,

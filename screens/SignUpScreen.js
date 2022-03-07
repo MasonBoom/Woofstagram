@@ -1,5 +1,6 @@
-import React, { useState, Component } from 'react';
-import { View, Text, Button, TextInput, ScrollView, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { ScrollView, TouchableOpacity, Text } from 'react-native';
+import { InputWithLabel } from '../components/InputWithLabel';
 import { styles } from '../styles';
 
 export const SignUpScreen = ({ navigation }) => {
@@ -59,7 +60,9 @@ export const SignUpScreen = ({ navigation }) => {
         value={toy}
         onChangeText={setToy}
       />
-      <Button title='Tap to sign up' onPress={goToSignIn} style={styles.button}/>
+      <TouchableOpacity onPress={goToSignIn}>
+        <Text style={styles.button}>Tap to sign up</Text>
+      </TouchableOpacity>
     </ScrollView>
   )
 };
@@ -69,19 +72,3 @@ function confirmPasswordsMatch(confirmationPassword, originalPassword) {
     alert('Passwords do not match, please try again.');
   }
 }
-
-const InputWithLabel = (props) => {
-  return (
-    <View style={styles.view}>
-      <Text style={styles.text}>{props.label}</Text>
-      <TextInput
-        onChangeText={props.onChangeText}
-        value={props.value}
-        placeholder={props.placeholder}
-        secureTextEntry={props.secureTextEntry}
-        onSubmitEditing={props.onSubmitEditing}
-        style={styles.placeholder}
-      />
-    </View>
-  );
-};

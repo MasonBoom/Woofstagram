@@ -19,13 +19,13 @@ const woofPostStyles = StyleSheet.create({
     alignItems: 'flex-start',
     flex: 1,
     flexDirection: 'row',
-    marginHorizontal: 10,
-    marginVertical: 10
+    marginHorizontal: 5,
+    marginVertical: 5
   },
   image: {
     borderRadius: 10,
     flex: 1,
-    height: 75,
+    height: 70,
   },
   content: {
     flexDirection: 'column',
