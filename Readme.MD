@@ -10,3 +10,7 @@ To run this project on your local machine:
 - Open your terminal and type "expo start" in the main directory
 - Open the web preview from the dev tools
 - To run this app on a mobile device, you must have "Expo go" installed on your device. Use your phone camera and scan the QR code while it is running
+
+The first screen you will see upon starting the app is the "Sign up" screen. It should look something like this:
+
+[sign up](SignUp - Google Chrome 3_10_2022 11_07_06 AM.png)
