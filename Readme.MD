@@ -13,4 +13,4 @@ To run this project on your local machine:
 
 The first screen you will see upon starting the app is the "Sign up" screen. It should look something like this:
 
-[sign up](SignUp - Google Chrome 3_10_2022 11_07_06 AM.png)
+![sign up](SignUp - Google Chrome 3_10_2022 11_07_06 AM.png)
